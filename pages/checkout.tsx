@@ -28,19 +28,19 @@ export default function checkout() {
             <div className="game-checkout d-flex flex-row align-items-center pt-md-50 pb-md-50 pt-30 pb-30">
                 <div className="pe-4">
                     <div className="cropped">
-                        <img src="../assets/img/Thumbnail-3.png" className="img-fluid" alt=""/>
+                        <img src="/img/Thumbnail-3.png" className="img-fluid" alt=""/>
                     </div>
                 </div>
                 <div>
-                    <p className="fw-bold text-xl color-palette-1 mb-10">Mobile Legends:<br> The New Battle 2021</p>
+                    <p className="fw-bold text-xl color-palette-1 mb-10">Mobile Legends:<br/> The New Battle 2021</p>
                     <p className="color-palette-2 m-0">Category: Mobile</p>
                 </div>
             </div>
-            <hr>
+            <hr/>
             <div className="purchase pt-md-50 pt-30">
                 <h2 className="fw-bold text-xl color-palette-1 mb-20">Purchase Details</h2>
-                <p className="text-lg color-palette-1 mb-20">Your Game ID <span
-                        className="purchase-details">masayoshizero</span></p>
+                <p className="text-lg color-palette-1 mb-20">Your Game ID 
+                <span className="purchase-details">masayoshizero</span></p>
                 <p className="text-lg color-palette-1 mb-20">Order ID <span className="purchase-details">#GG001</span></p>
                 <p className="text-lg color-palette-1 mb-20">Item <span className="purchase-details">250 Diamonds</span></p>
                 <p className="text-lg color-palette-1 mb-20">Price <span className="purchase-details">Rp 42.280.500</span></p>
