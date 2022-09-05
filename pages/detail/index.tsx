@@ -31,7 +31,7 @@ export default function index() {
                     <form action="./checkout.html" method="POST">
                         <div className="pt-md-50 pt-30">
                             <div className="">
-                                <label htmlhtmlhtmlFor="ID" className="form-label text-lg fw-medium color-palette-1 mb-10">Verify
+                                <label htmlFor="ID" className="form-label text-lg fw-medium color-palette-1 mb-10">Verify
                                     ID</label>
                                 <input type="text" className="form-control rounded-pill text-lg" id="ID" name="ID"
                                     aria-describedby="verifyID" placeholder="Enter your ID"/>
@@ -41,7 +41,7 @@ export default function index() {
                             <p className="text-lg fw-medium color-palette-1 mb-md-10 mb-0">Nominal Top Up</p>
                             <div className="row justify-content-between">
                                 <label className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                                    htmlhtmlhtmlFor="topup1">
+                                    htmlFor="topup1">
                                     <input className="d-none" type="radio" id="topup1" name="topup" value="topup1"/>
                                     <div className="detail-card">
                                         <div className="d-flex justify-content-between">
@@ -77,7 +77,7 @@ export default function index() {
                                     </div>
                                 </label>
                                 <label className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                                    htmlhtmlhtmlFor="topup3">
+                                    htmlFor="topup3">
                                     <input className="d-none" type="radio" id="topup3" name="topup" value="topup3"/>
                                     <div className="detail-card">
                                         <div className="d-flex justify-content-between">
@@ -95,7 +95,7 @@ export default function index() {
                                     </div>
                                 </label>
                                 <label className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                                    htmlhtmlhtmlFor="topup4">
+                                    htmlFor="topup4">
                                     <input className="d-none" type="radio" id="topup4" name="topup" value="topup4"/>
                                     <div className="detail-card">
                                         <div className="d-flex justify-content-between">
@@ -113,7 +113,7 @@ export default function index() {
                                     </div>
                                 </label>
                                 <label className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                                    htmlhtmlhtmlFor="topup5">
+                                    htmlFor="topup5">
                                     <input className="d-none" type="radio" id="topup5" name="topup" value="topup5"/>
                                     <div className="detail-card">
                                         <div className="d-flex justify-content-between">
@@ -139,7 +139,7 @@ export default function index() {
                             <fieldset id="paymentMethod">
                                 <div className="row justify-content-between">
                                     <label className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                                        htmlhtmlhtmlFor="transfer">
+                                        htmlFor="transfer">
                                         <input className="d-none" type="radio" id="transfer" name="paymentMethod"
                                             value="transfer"/>
                                         <div className="detail-card">
@@ -157,7 +157,7 @@ export default function index() {
                                         </div>
                                     </label>
                                     <label className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                                        htmlhtmlhtmlFor="visa">
+                                        htmlFor="visa">
                                         <input className="d-none" type="radio" id="visa" name="paymentMethod" value="visa"/>
                                         <div className="detail-card">
                                             <div className="d-flex justify-content-between">
@@ -179,7 +179,7 @@ export default function index() {
                             </fieldset>
                         </div>
                         <div className="pb-50">
-                            <label htmlhtmlhtmlFor="bankAccount" className="form-label text-lg fw-medium color-palette-1 mb-10">Bank
+                            <label htmlFor="bankAccount" className="form-label text-lg fw-medium color-palette-1 mb-10">Bank
                                 Account
                                 Name</label>
                             <input type="text" className="form-control rounded-pill text-lg" id="bankAccount"
