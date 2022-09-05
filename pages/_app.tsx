@@ -39,9 +39,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossOrigin="anonymous">
     </script>
 
-    <script>
-        AOS.init();
-    </script>
 
     </Head>
    <Component {...pageProps} />
