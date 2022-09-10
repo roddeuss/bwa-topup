@@ -18,7 +18,6 @@ export default function Navbar() {
                         <Menu title="Home" active href="/"/>
                         <Menu title="Games"/>
                         <Menu title="Reward"/>
-                        <Menu title="Home"/>
                         <Menu title="Discover"/>
                         <Menu title="Global Rank"/>
                         <Auth isLogin />
