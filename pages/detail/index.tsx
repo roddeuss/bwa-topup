@@ -1,8 +1,13 @@
+import Footer from "../../components/organisms/Footer";
+import Navbar from "../../components/organisms/navbar";
 import TopUpForm from "../../components/organisms/TopUpForm";
 import TopUpItem from "../../components/organisms/TopUpItem";
 
+
 export default function index() {
     return (
+        <>
+        <Navbar />
     <section className="detail pt-lg-60 pb-50">
         <div className="container-xxl container-fluid">
             <div className="detail-header pb-50">
@@ -22,5 +27,7 @@ export default function index() {
             </div>
         </div>
     </section>
+    <Footer />
+        </>
     )
 }
