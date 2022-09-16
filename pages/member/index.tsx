@@ -1,4 +1,4 @@
-import OverviewContent from "../../components/organisms/Overview";
+import OverviewContent from "../../components/organisms/OverviewContent";
 import Sidebar from "../../components/organisms/Sidebar";
 
 export default function Member() {
